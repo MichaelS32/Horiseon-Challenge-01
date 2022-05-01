@@ -1,4 +1,4 @@
-/* Universal selector for General styling */
+/* Universal selector for editing default styling */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,6 +6,7 @@
     color: #ffffff;
 }
 
+/* sets  */
 body {
     background-color: #d9dcd6;
 }
@@ -79,7 +80,7 @@ p {
     margin-left: 20px;
 }
 
-.search-engine-optimization {
+.section-content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -87,31 +88,7 @@ p {
     background-color: #0072bb;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
+.section-content img {
     max-height: 200px;
 }
 
