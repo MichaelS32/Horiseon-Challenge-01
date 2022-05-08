@@ -1,46 +1,36 @@
-# 01 HTML, CSS, and Git: Code Refactor
+# Horiseon-challenge-01 
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities and/or socio-economic restrictions have access to their website. Accessible websites are better optimized for search engines, and help companies avoid litigation.
+## Description
 
-For this week's Challenge, your task is to refactor an existing webpage to make it accessible and to improve SEO. It's important to follow the Scout Rule when working with an existing codebase: Always leave the code a little cleaner than you found it. 
+Horiseon is a marketing, brand management, search engine optimization (SEO) firm. The challenge given was to refactor existing code in order to increase accessibility for people with disabilities and/or socio-economic restrictions and improve SEO. In this project I refactored the semantic div elements to improve web-accessibility and added alt text for images to help with the use of technologies such as screen readers. In order to clean up the styles sheet I took repeating style classes and consolidated them into more general classes that can be given to any future content added to the code. This was to improve the codebase for long-term sustainability and make it easier to style new content. Comments were also added to the codebase in order to differentiate the different sections and make the code easier to follow.
 
-To impress the imaginary client for this Challenge, you should go the extra mile and improve their codebase for long-term sustainability. Ensure that all links are functioning correctly and clean up the CSS to make it more efficient, such as by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
+This project was built to inform individuals of the different factors of marketing that can help your business succeed on the web. With the changes made to the code, it is now more navigational where the links in the nav bar take you to the section you clicked on, it has semantic elements and alt text for images to improve SEO and accessibility, and consolidated style sheet properties to make it easier to add new content with style to the html.
 
-Remember when working with a client, it is essential to read the acceptance criteria for guidance and clarity on what the client expects, especially when asked to make a judgment call, such as when an icon needs an accessible alt tag and when it is okay to leave it blank. 
+## Links
 
-To successfully complete this week's Challenge, all acceptance criteria must be fully addressed!
+GitHub pages url: https://michaels32.github.io/Horiseon-Challenge-01/
+GitHub repository url: https://github.com/MichaelS32/Horiseon-Challenge-01
 
-## User Story
+## License
 
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our site is optimized for search engines
-```
+MIT License
 
-## Acceptance Criteria
+Copyright (c) [2022] [Michael Schneider]
 
-```
-GIVEN a webpage that meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the icon and image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN I find that they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-## Review
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a professional README describing the project.
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
