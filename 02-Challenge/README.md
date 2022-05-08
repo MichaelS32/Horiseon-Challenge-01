@@ -8,8 +8,8 @@ This project was built to inform individuals of the different factors of marketi
 
 ## Links
 
-GitHub pages url: https://michaels32.github.io/Horiseon-Challenge-01/
-GitHub repository url: https://github.com/MichaelS32/Horiseon-Challenge-01
+GitHub pages url: https://michaels32.github.io/Horiseon-Challenge-01/  
+GitHub repository url: https://github.com/MichaelS32/Horiseon-Challenge-01  
 
 ## License
 
